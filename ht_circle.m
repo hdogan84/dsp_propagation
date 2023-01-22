@@ -2,7 +2,6 @@ function [h_xt, time1, time3, time_vec]=ht_circle(x,y,z,freq,radius,c)
 % subroutine called by circle_new_mod_1m and circle_new_mod_asfunction
 % to compute pressure at a certain point in space (X,Y,Z)
 % with respect to the centre of a piston source @ (0,0,0)
-% written by Matt Simspon 2004
 
 rho=sqrt((x^2)+(y^2));
 time1=z/c;% perpendicular distance

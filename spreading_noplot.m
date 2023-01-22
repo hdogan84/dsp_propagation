@@ -1,6 +1,5 @@
 function [db_data,x,z]=spreading_noplot(c,freq,radius);
 % subroutine called by prop_nov_time and prop_nov_time_stacked
-% modified version of spreading programs developes by Matt Simpson (2004)
 % calclates spreading patern along prependicular 1 m line through centre of a
 % piston source
 % uses continuous wave: discrepancies between these results and those using

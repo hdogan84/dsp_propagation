@@ -3,7 +3,6 @@ function [h_xt,time1,time3,time_vec]=ht_circle_proc(X,Y,Z,freq,radius,c);
 % with respect to the centre of a piston source @ (0,0,0)
 % only works as subrotine for spreading, i.e. will only compute along
 % central line from source. Fpr X>0 and Y>0 use ht_circle
-% written by Matt Simspon 2004
 rho=sqrt((X^2)+(Y^2));
 time1=Z/c;
 
